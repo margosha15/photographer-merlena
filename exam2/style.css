@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(124, 178, 130, 0.7);
+}
+
+header {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(188, 232, 193, 0.7); /* Задайте потрібний рівень прозорості */
+    background-size: cover; 
+    background-position: top center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 10px; /* Закруглені кути */
+    box-shadow: 0 4px 10px rgba(12, 87, 23, 0.2); /* Тінь для ефекту глибини */
+    
+}
+.highlight {
+    color: #0c522a;
+    font-weight: bold;
+}
+
+.wrapper {
+    background-color: white; /* Білий фон в середині */
+    max-width: 1200px; /* Максимальна ширина контейнера */
+    margin: 0 auto; /* Вирівнювання по центру */
+    padding: 50px 20px;
+}
+
+.content {
+    padding: 50px 20px; /* Внутрішні відступи */
+}
+
+.container {
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 200px; /* Ширина фотографій */
+    height: auto;
+    border-radius: 5px;
+}
+
+
